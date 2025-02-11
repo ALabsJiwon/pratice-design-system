@@ -1,24 +1,22 @@
 {
   "name": "@ablelabs-web/components",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "ablelabs web components",
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.3",
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
   },
