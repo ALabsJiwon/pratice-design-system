@@ -1,5 +1,12 @@
 {
-  "name": "@ablelabs-web/components",
+  "name": "alabjiwon-components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ALabsJiwon/pratice-design-system"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

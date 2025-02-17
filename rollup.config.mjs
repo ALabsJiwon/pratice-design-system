@@ -19,7 +19,17 @@ export default {
       sourcemap: true
     }
   ],
-  external: ["react", "react-dom"],
+  external: [
+    "react", 
+    "react-dom",
+    "@radix-ui/react-slot",
+    "@radix-ui/react-avatar",
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "tailwind-merge",
+    "tailwindcss-animate"
+  ],
   plugins: [
     peerDepsExternal(),
     resolve(),

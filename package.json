@@ -1,5 +1,5 @@
 {
-  "name": "ablelabs-design-system",
+  "name": "alabjiwon-design-system",
   "private": true,
   "scripts": {
     "build": "rollup -c",
